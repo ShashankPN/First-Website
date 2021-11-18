@@ -6,127 +6,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyGuns</title>
-    <link rel="icon" href="/Img/company_logo.jpg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/Img/icon.png">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" media = "screen and (max-width:1300px)" href="/CSS/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Prompt&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="/Img/company_logo.jpg" alt="CompanyLogo">
+            <img src="/Img/company_logo.png" alt="CompanyLogo">
         </div>
         <div class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Store</a></li>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Products</li>
+                </a>
+                <a href="#">
+                    <li>Services</li>
+                </a>
+                <a href="#">
+                    <li>About Us</li>
+                </a>
+
             </ul>
         </div>
         <div class="nav_search">
-            <input type="text" name="Search" id="Search_bar">
+            <input type="text" name="Search Products" placeholder="Search" id="Search_bar">
         </div>
         <div class="storefinder">
             <input type="button" value="Find a Store">
         </div>
     </nav>
     <section class="heading">
-        <h2 class="center">Welcome to MyGuns.com</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aut quibusdam tempora deleniti molestiae odio
-            ea accusantium explicabo? Quisquam, debitis eum odio ipsum officiis ea animi repellendus modi molestias
-            repudiandae quos consequatur placeat expedita.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus aliquam necessitatibus
+        <h2 class=" primary_heading white_font">Welcome to MyGuns.com</h2>
+        <p class="primary_text black_font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aut quibusdam tempora
+            deleniti molestiae odio
+            ea Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p class="primary_text black_font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus aliquam
+            necessitatibus
             tenetur, alias ex quis!</p>
     </section>
+    <h2 class="primary_heading">Our Products</h2>
     <article class="products">
         <div class="product_container item1">
             <img src="/Img/gun1.png" alt="Gun1" id="product1">
-            <h2 class="product_heading">JJ Thompson</h2>
-            <p class="product_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
-                exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique saepe!
-            </p>
+            <div class="product_desc">
+                <h2 class="secondary_heading">AK 47</h2>
+                <p class="secondary_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
+                    exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique
+                    saepe!
+                </p>
+            </div>
         </div>
         <div class="product_container item2">
-            <img src="/Img/gun2.jpg" alt="Gun2" id="product2">
-            <h2 class="product_heading">Golden Glock</h2>
-            <p class="product_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
-                exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique saepe!
-            </p>
+            <img src="/Img/gun2.png" alt="Gun2" id="product2">
+            <div class="product_desc">
+                <h2 class="secondary_heading">Vector</h2>
+                <p class="secondary_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
+                    exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique
+                    saepe!
+                </p>
+            </div>
         </div>
         <div class="product_container item1">
             <img src="/Img/gun3.png" alt="Gun3" id="product3">
-            <h2 class="product_heading">Auto-Glock</h2>
-            <p class="product_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
-                exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique saepe!
-            </p>
+            <div class="product_desc">
+                <h2 class="secondary_heading">AWM</h2>
+                <p class="secondary_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
+                    exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique
+                    saepe!
+                </p>
+            </div>
         </div>
         <div class="product_container  item2">
             <img src="/Img/gun4.png" alt="Gun4" id="product4">
-            <h2 class="product_heading">M 16</h2>
-            <p class="product_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
-                exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique saepe!
-            </p>
+            <div class="product_desc">
+                <h2 class="secondary_heading">M 249</h2>
+                <p class="secondary_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia
+                    exercitationem. Repellat accusamus facilis hic deserunt magnam delectus distinctio quas similique
+                    saepe!
+                </p>
+            </div>
         </div>
     </article>
-    <section class="about_us">
-        <div class="customers">
-            <h3 class="">Our Customers</h3>
-            <div class="countries">
-                <img src="/Img/indian_defence.jpg" alt="Indian Army">
-                <h3 class="country_heading">Indian</h3>
-            </div>
-            <div class="countries">
-                <img src="/Img/israel_defence.png" alt="Israel Defence">
-                <h3 class="country_heading">Israel</h3>
-            </div>
-            <div class="countries">
-                <img src="/Img/japan_defence.png" alt="Japan_defence">
-                <h3 class="country_heading">Japan</h3>
-            </div>
-            <div class="countries">
-                <img src="/Img/srilanka_defence.png" alt="SriLanks Army">
-                <h3 class="country_heading">Sri Lanka</h3>
-            </div>
+    <h3 class="primary_heading">Our Customers</h3>
+    <section class=" customers">
+
+        <div class="countries">
+            <img src="/Img/indian_defence.png" alt="Indian Army">
+            <h3 class="secondary_heading">India</h3>
+        </div>
+        <div class="countries">
+            <img src="/Img/israel_defence.png" alt="Israel Defence">
+            <h3 class="secondary_heading">Israel</h3>
+        </div>
+        <div class="countries">
+            <img src="/Img/japan_defence.png" alt="Japan_defence">
+            <h3 class="secondary_heading">Japan</h3>
+        </div>
+        <div class="countries">
+            <img src="/Img/srilanka_defence.png" alt="SriLanks Army">
+            <h3 class="secondary_heading">Sri Lanka</h3>
         </div>
     </section>
-    <section class="ContactUs">
+    <h2 class="primary_heading "> Contact Us </h2>
+    <section id="contact_us">
         <div class="user_form">
-            <h2>Subscribe for News Letter</h2>
+            <h2 class="secondary_heading">Subscribe for NewsLetter</h2>
             <form>
-                <input type="text" name="Name" id="name" placeholder="NAME">
-                <input type="text" name="dob" id="dob"
-                placeholder="Date of Birth" onfocus="this.type = 'date'" onblur="this.type='text'">
-                <input type="text" name="Occupation" id="occupation" placeholder="OCCUPATION">
-                <input type="text" name="Country" id="country" placeholder="COUNTRY">
-                <input type="text" name="Feedback" id="feedback" placeholder="FEEDBACK">
+                <input type="text" name="Name" id="name" placeholder="NAME" maxlength="30" size="50">
+                <input type="text" name="dob" id="dob" placeholder="Date of Birth" onfocus="this.type = 'date'"
+                    onblur="this.type='text'">
+                <input type="text" name="Occupation" id="occupation" maxlength="30" size="50" placeholder="OCCUPATION">
+                <input type="text" name="Country" id="country" placeholder="COUNTRY" maxlength="30" size="50">
+                <textarea name="Feedback" id="feedback" cols="80" rows="10" placeholder="Feedback"></textarea>
                 <div class="form_buttons">
-                    <input type="button" value="Subscribe">
-                    <input type="reset">
+                    <input type="button" value="Subscribe" id="form_subscribe">
+                    <input type="reset" id="form_reset">
                 </div>
             </form>
-
         </div>
         <div class="details">
-            <h2>Contact Us</h2>
             <table>
                 <tr>
-                    <td>Mobile:</td>
-                    <td>+91 987X XXX XXX</td>
+                    <td class="table_head">Mobile</td>
+                    <td class="table_data">+91 987X XXX XXX</td>
                 </tr>
                 <tr>
-                    <td>Address:</td>
-                    <td>2536 Massachusetts Avenue, NW Washington, DC 20008</td>
+                    <td class="table_head">Address:</td>
+                    <td class="table_data ">2536 Massachusetts Avenue, NW Washington, DC 20008</td>
                 </tr>
                 <tr>
-                    <td>Email :</td>
-                    <td>tonystark@myguns.com</td>
+                    <td class="table_head">Email</td>
+                    <td class="table_data"> <a href="mailto:tonystark@myguns.com">tonystark@myguns.com</a> </td>
                 </tr>
             </table>
-        </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.348448704124!2d-77.05876998526732!3d38.91601247956774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b6332b5925b5%3A0x13a9e82d16fa457b!2s2536%20Massachusetts%20Ave%20NW%2C%20Washington%2C%20DC%2020008%2C%20USA!5e0!3m2!1sen!2sin!4v1637179757642!5m2!1sen!2sin" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div> 
     </section>
+    <br>
     <section class="copyright">
-        <h4>Copyright (C) 2012-2025 MyGunsMywish,Inc.</h4>
-        <h4>All Rights Reserved</h4>
+        <h4>Copyright (C) 2012-2025 MyGunsMywish,Inc. <br>
+            All Rights Reserved</h4>
     </section>
 
 </body>

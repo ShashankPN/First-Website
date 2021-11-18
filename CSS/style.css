@@ -1,0 +1,348 @@
+/* CSS reset */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    
+}
+:root{
+    --primary-color : rgb(29, 10, 10);
+    --secondary-color: rgb(255, 255, 255);
+}
+/* Navigation bar setting */
+
+.navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -10;
+} 
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo img{
+    width: 52px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.navigation ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.navigation a li{
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.navigation a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 46px;
+    margin: 0px 5px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    /* border: 3px solid var(--secondary-color); */
+}
+.navigation a:hover{
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 10px var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.nav_search{
+    margin-right: 47px;
+    margin-left: 180px;
+}
+.nav_search input{
+    border-radius: 12px;
+    text-align: right;
+    padding: 5px 25px;
+    border: 2px solid var(--primary-color);
+}
+.storefinder input{
+    border-radius: 7px;
+    padding: 11px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+}
+.storefinder :hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0px 0px 15px var(--primary-color);
+}
+
+/* Heading section */
+
+.primary_heading{
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    text-align: center;
+    /* font-weight: bold; */
+    color: var(--primary-color);
+}
+
+.primary_text{
+    font-family: Ubuntu;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.secondary_heading{
+    font-family: Ubuntu;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.secondary_text{
+    font-family: Ubuntu;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: lighter;
+    /* color: var(--secondary-color); */
+}
+
+.white_font{
+    color: white;
+}
+.black_font{
+    color: black;
+}
+/* Heading section */
+
+.heading::before{
+    background: url(/Img/bg_bullets.jpg) repeat center center;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    z-index: -5;
+}
+.heading{
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 14px 106px;
+    margin-bottom: 13px;
+    position: relative;
+    height: 426px;
+}
+
+/* Products section */
+
+.products::before{
+    background: url(/Img/black_bullets.jpg) no-repeat center center ;
+    /* background-color: black; */
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.products{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    /* margin: 45px 55px; */
+    /* box-shadow: 0px 0px 20px var(--primary-color); */
+    /* padding: 20px; */
+}
+.product_container{
+    background-color: rgb(231, 240, 241);
+    border: 3px solid var(--primary-color);
+    border-radius: 14px;
+    margin: 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.product_container img{
+    height: 150px;
+    width: 300px;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+}
+.product_desc{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* color: var(--secondary-color); */
+}
+.product_desc h2{
+   margin-bottom: 0px;
+}
+.product_desc p{
+    text-align: center;
+}
+
+/* About US Customers */
+
+.customers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(221, 249, 253); */
+    border-bottom: 3px solid tomato;
+    box-shadow: 0px 2px 4px tomato;
+
+}
+.countries img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid tomato;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px tomato;
+    background-color: rgb(212, 243, 240);
+}
+
+.countries{
+display: flex;
+flex-flow: column;
+margin: 12px;
+}
+
+/* Contact US section */
+
+#contact_us::before {
+    background-color: rgb(194, 191, 191);
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute; 
+}
+
+#contact_us{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid tomato;
+    padding: 20px;
+
+}
+
+.user_form, .user_form form{
+    display: flex;
+    align-items: left;
+    justify-content:center;
+ 
+    flex-flow: column;
+    /* color: var(--secondary-color); */
+}
+.user_form{
+    justify-content: space-evenly;
+}
+.user_form form{
+    border-right: none;
+}
+.user_form form input, #feedback{
+    padding: 8px 0px;
+    width: 400px;
+    border: 2px solid red;
+    margin: 2px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 4px tomato;
+}
+#feedback{
+    /* text-align: left; */
+    text-transform: none;
+
+}
+#form_subscribe , #form_reset{
+    width: 120px;
+    margin-left: 10px;
+}
+.form_buttons input[type="button"]:hover {
+    background-color: green;
+    color: white;
+    border-color: white;
+    box-shadow: 0px 0px 10px green;
+}
+.form_buttons input[type="reset"]:hover {
+    background-color: tomato;
+    color: white;
+    border-color: white;
+    box-shadow: 0px 0px 10px tomato;
+}
+.form_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align_left{
+    text-align: left;
+    /* margin-top: 0px; */
+}
+
+/* Contact Info */
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-flow: column;
+}
+.table_head{
+    text-transform: capitalize;
+    color: var(--primary-color);
+    
+    font-family: Ubuntu;
+    font-size: 20px;
+}
+.table_data{
+    color: black;
+}
+.map iframe{
+    margin-top: 20px;
+    border-radius: 40px;
+    border: px soid red;
+    box-shadow: 0px 0px 15px var(--primary-color);
+    border: 0;
+    width: 483px;
+    height: 246px;
+}
+
+/* footer */
+
+.copyright::before{
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: "";
+    
+}
+.copyright{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+}
+.copyright h4{
+    color: white;
+    font-family:  'Prompt', sans-serif;
+    text-align: center;
+
+}
