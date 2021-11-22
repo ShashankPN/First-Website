@@ -6,7 +6,7 @@ body{
     
 }
 :root{
-    --primary-color : rgb(29, 10, 10);
+    --primary-color : red;
     --secondary-color: rgb(255, 255, 255);
 }
 /* Navigation bar setting */
